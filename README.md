@@ -20,6 +20,11 @@ This project is a simple single-page website that uses a API calls to display th
   - socket.io
   - ws
 
+## Screenshots
+  - !["Home Page"] (https://github.com/LucasMolinag/PhotoLabs/blob/main/docs/home-page.png?raw=true)
+  - !["Home Page"] (https://github.com/LucasMolinag/PhotoLabs/blob/main/docs/home-page.png?raw=true)
+  - !["Home Page"] (https://github.com/LucasMolinag/PhotoLabs/blob/main/docs/home-page.png?raw=true)
+
 # Photolabs
 
 ## Setup
