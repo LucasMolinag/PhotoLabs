@@ -5,7 +5,6 @@ import FavIcon from './FavIcon';
 import '../styles/PhotoFavButton.scss';
 
 function PhotoFavButton( { photoId, toggleFavorite, isFavorite }) {
-// const [isFavorite, dispatch] = useReducer(toggleFavorite, )
 
   const handleClick = () => {
     toggleFavorite(photoId);
