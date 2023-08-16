@@ -23,7 +23,7 @@ This project is a simple single-page website that uses a API calls to display th
 ## Screenshots
   - !["Home Page"] (https://github.com/LucasMolinag/PhotoLabs/blob/main/docs/home-page.png?raw=true)
   - !["Photo Detail Modal"] (https://github.com/LucasMolinag/PhotoLabs/blob/main/docs/modal.png?raw=true)
-  - !["Home Page"] (https://github.com/LucasMolinag/PhotoLabs/blob/main/docs/home-page.png?raw=true)
+  - !["Animal Topic Selected"] (https://github.com/LucasMolinag/PhotoLabs/blob/main/docs/topic-selected.png?raw=true)
 
 # Photolabs
 
