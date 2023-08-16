@@ -195,7 +195,7 @@ const photos = [
   {
     ...photo2,
     similar_photos: {
-      photo2,
+      photo1,
       photo3,
       photo4,
       photo5,

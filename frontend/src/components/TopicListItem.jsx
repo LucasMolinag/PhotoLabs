@@ -1,17 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "../styles/TopicListItem.scss";
 
-const sampleDataForTopicListItem = {
-  id: "1",
-  slug: "topic-1",
-  label: "Nature",
-};
+const TopicListItem = ({ title, id, content, fetchPhotosByTopic }) => {
+  const [isSelected, setIsSelected] = useState(false);
 
-const TopicListItem = () => {
+  const handleClick = () => {
+    setIsSelected(!isSelected);
+    if (!isSelected) {
+      fetchPhotosByTopic(id);
+    }
+  };
+
   return (
-    <div className="topic-list__item">
-      {/* Insert React */}
+    <div className={`topic-list__item ${isSelected ? 'selected' : ''}`}>
+      <span onClick={handleClick}>{title}</span>
+      {isSelected && <p>{content}</p>}
     </div>
   );
 };
