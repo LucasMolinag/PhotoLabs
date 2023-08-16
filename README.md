@@ -1,5 +1,24 @@
-# react-photolabs
-The PhotoLabs project for the Web Development React course programming.
+# LightBnB Project
+
+This project is a simple single-page website that uses a API calls to display the information from the backend server to the web pages. The goal is to showcase my first react app, styled, fully functional, and with data that's not hard coded. This is currently a work in progess!
+
+## Dependencies
+
+### Frontend
+  - react
+  - react-dom
+  - react-scripts
+  - web-vitals
+    
+### Backend
+  - body-parser
+  - cors
+  - dotenv
+  - express
+  - helmet
+  - pg
+  - socket.io
+  - ws
 
 # Photolabs
 
