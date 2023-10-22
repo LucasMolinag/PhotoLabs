@@ -1,4 +1,4 @@
-# LightBnB Project
+# Photolabs Project
 
 This project is a simple single-page website that uses a API calls to display the information from the backend server to the web pages. The goal is to showcase my first react app, styled, fully functional, and with data that's not hard coded. This is currently a work in progess!
 
